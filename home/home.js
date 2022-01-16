@@ -3,7 +3,10 @@
 // Here is where the recipes that you will fetch.
 // Feel free to add your own here for part 2, if they are local files simply add their path as a string.
 const default_card = [
-    "/home/fake_data.json"
+    // "/home/fake_data.json",
+    "/home/han-1.json",
+    "/home/han-2.json",
+    "/home/han-3.json"
 ];
 
 const friendlist = {};
@@ -28,8 +31,8 @@ const friendlist = {};
             fetch(default_card[i])
             .then(response => response.json())
             .then(data => {
-              friendlist[`friend ${i}`] = data; 
-              console.log("here");
+              friendlist[`${i}`] = data; 
+              console.log(friendlist);
               resolve("true");
             //   console.log("here");
             //   if (friendlist.length == Object.keys(default_card).length) {
@@ -80,9 +83,13 @@ const friendlist = {};
   
     // Part 1 Expose - TODO
     const userCard = document.createElement("user-card");
-    console.log(friendlist);
-    userCard.data = friendlist[`friend 0`];
-    document.querySelector("main").append(userCard);
+    // console.log(friendlist);
+    for (let i = 0; i < default_card.length; i++) {
+      console.log(friendlist[i]);
+      userCard.data = friendlist[i];
+    }
+    
+    // document.querySelector("main").append(userCard);
   }
   
   

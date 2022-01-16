@@ -1,5 +1,7 @@
 {
     "name": "itadori",
-    "pfp": "https://i.pinimg.com/originals/05/bb/49/05bb49f7054c332879241c92a5242a46.jpg",
-    "song": "teenagers - my chemical romance"
+    "song": [{"name": "i don't want to watch the world end with someone else",  "artist": "Clinton Kane",  "album_cover": "https://i.scdn.co/image/ab67616d0000b27392ce45bc46589e10ec452085"}, 
+        {"name": "Red Swan",  "artist": "Yoshiki",  "album_cover": "https://i.scdn.co/image/ab67616d0000b2735ce0fbd16dba08ae792dc1cf"}, 
+        {"name": "love, or the lack thereof", "artist": "Isaac Dunbar", "album_cover": "https://i.scdn.co/image/ab67616d0000b2735aa71350a824d08bb7905c40"}
+    ]
 }
