@@ -1,0 +1,11 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.home-header {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
