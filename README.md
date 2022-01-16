@@ -7,12 +7,12 @@ Keeping in contact with friends is hard during the pandemic. You run out of thin
 The app lets users create a group with their friends. Each week (or multiple weeks depending on their chosen frequency), the app runs analytics on the group's music using Spotify's API. The app gives a fun storyboard similar to the end of the year Spotify wrap which shows the collective indicated mood over the past week and similar listening habits. The app will additionally prompt users to share one positive thing which happened over the past week, any thoughts on their mind and other questions they include.
 
 ## How we built it
-###Front-end
-_Language_: HTML/CSS
+### Front-end
+_Language_ : HTML/CSS
 Iterated over multiple styles of design to come up with one that is fun and mood-lifting!
 
-###Back-end
-_Language_: Javascript, Python
+### Back-end
+_Language_ : Javascript, Python
 Coded the user authentication using Firebase and Spotify OAuth
 
 ## Challenges we ran into
