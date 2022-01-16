@@ -16,7 +16,9 @@ _Language_ : Javascript, Python
 Coded the user authentication using Firebase and Spotify OAuth
 
 ## Challenges we ran into
-Initially, we tried to adapt the <a href = "https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j">web app</a> that Tech with Tim built using Django and React which we have never used before, but ultimately they were too complex to learn within the timeframe given and we stuck to using Python's Spotify Library (spotipy) to have something to show in the end.
+We pushed ourselves to try new languages and frameworks we have never used before, going well beyond our comfort zones to learn something new this weekend. We attempted to code the front to backend of an app with ambitious features for relative beginners in web app development. 
+
+Initially, we tried to adapt the <a href = "https://www.youtube.com/playlist?list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j">web app</a> that Tech with Tim built using Django and React which we none of us have never used before. We ran into the biggest trouble adapting the tutorial to fit the purpose of our app. Ultimately the project proved too complex to learn within the timeframe given and we doubled back coding in a languages and frameworks we were more comfortable to at least produce a deliverable we could show.
 
 ## Accomplishments that we're proud of
 - Our app looks beautiful!
